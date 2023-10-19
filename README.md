@@ -2,7 +2,7 @@
 
 This repository contains the code for the EMNLP 2023 paper "A Mechanistic Interpretation of Arithmetic Reasoning in Language Models using Causal Mediation Analysis".
 
-![img](./arithmetic_cma.png)
+<img src="arithmetic_cma.png" width="300">
 
 ## Setup
 The requirements are listed in `requirements.txt`. To install them, run:
