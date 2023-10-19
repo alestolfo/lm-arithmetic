@@ -1,0 +1,38 @@
+wandb_mode: disabled
+device: cuda
+debug_run: false
+
+transformers_cache_dir: null
+
+model: EleutherAI/gpt-j-6b
+model_ckpt: null
+random_weights: false
+int8: false
+output_dir: ./out
+path_to_entity_dict: ./interventions/entity_dict.json
+lama_path: /path/to/lama/weights
+
+intervention_type: 1
+get_full_distribution: false
+intervention_loc: all
+effect_type: indirect
+template_type: all
+representation: arabic
+max_n: 300
+examples_per_template: 5
+n_operands: 2
+n_shots: 0
+max_n_vars: null
+all_tokens: true
+
+seed: 0
+
+defaults:
+  - _self_
+  - override hydra/hydra_logging: disabled
+  - override hydra/job_logging: disabled
+
+hydra:
+  output_subdir: null
+  run:
+    dir: .
