@@ -47,10 +47,13 @@ In the `notebooks/` directory, we provide some notebooks that can be used to vis
 
 ## Citation
 ```
-@article{stolfo2023understanding,
-  title={Understanding Arithmetic Reasoning in Language Models using Causal Mediation Analysis},
-  author={Stolfo, Alessandro and Belinkov, Yonatan and Sachan, Mrinmaya},
-  journal={arXiv preprint arXiv:2305.15054},
-  year={2023}
+@inproceedings{stolfo-etal-2023-mechanistic,
+    title = "A Mechanistic Interpretation of Arithmetic Reasoning in Language Models using Causal Mediation Analysis",
+    author = "Stolfo, Alessandro  and
+      Belinkov, Yonatan  and
+      Sachan, Mrinmaya",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    year = "2023",
+    url = "https://aclanthology.org/2023.emnlp-main.435/",
 }
 ```
